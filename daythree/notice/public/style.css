@@ -1,0 +1,47 @@
+.container {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+thead, tfoot{
+    background-color: #EE865B;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+tbody > tr > td{
+    background-color: #FFFFE3;
+}
+
+thead > tr > td{
+    padding: 10px 0;
+
+}
+
+tfoot {
+    text-align: center;
+}
+
+.redirect > button {
+    width: 100%;
+}
+
+.redirect {
+    width: 10%;
+}
+
+.table-title {
+    width: 50%;
+}
+
+form > label {
+    font-weight: bold;
+}
+
+form > div {
+    margin: 10px 0
+}
