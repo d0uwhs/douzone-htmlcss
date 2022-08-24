@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header, footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+nav {
+    padding: 20px 0;
+    background-color: #76AB38;
+    margin: 10px 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+main{
+    display: flex;
+    overflow: hidden;
+}
+
+.content-body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.content-atomic {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section{
+    display: flex;
+}
+
+.btn-submit {
+    padding: 10px;
+}
