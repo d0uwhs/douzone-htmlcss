@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>회원가입</title>
+</head>
+
+<body>
+<div class="container">
+    <h1>회원가입</h1>
+    <fieldset>
+        <form>
+            <div class="register_required">
+                <fieldset>
+                    <legend>
+                        필수 입력 사항
+                    </legend>
+                    <div class="form_selection">
+                        <label><strong>ID</strong></label>
+                        <input class="form_input" type="text" placeholder="아이디 10글자 이내">
+                        <button class="form_additional" type="button">중복 확인</button>
+
+                    <div class="">
+                        <label class="form_title"><strong>비밀번호</strong></label>
+                        <input class="form_input" type="password" placeholder="영문, 숫자, 특수문자 포함 8자 이상">
+                    </div>
+                    <div class="">
+                        <label class="form_title"><strong>비밀번호 확인</strong></label>
+                        <input class="form_input" type="password">
+                    </div>
+                    <div class="">
+                        <label class="form_title"><strong>Email</strong></label>
+                        <input class="form_input" type="email">
+                        <select>
+                            <option value="manual">직접 입력</option>
+                            <option value="google">구글</option>
+                            <option value="naver">네이버</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+            </div>
+            <div class="register_optional">
+                <fieldset>
+                    <legend>추가 정보</legend>
+                    <div class="">
+                        <label>프로필 사진 : </label>
+                        <input type="file" name="" id="">
+                    </div>
+                    <div class="">
+                        <label for="">성별 : </label>
+                        <input type="radio" name="" id="male" value="male" placeholder="남자">
+                        <label for="male">남자</label>
+                        <input type="radio" name="" id="female" value="male" placeholder="남자">
+                        <label for="female">여자</label>
+
+                    </div>
+                    <div class="">
+                        <label for="">생년월일 : </label>
+                        <input type="date" name="" id="">
+                    </div>
+
+                    <div class="">
+                        <label for="">취미</label>
+                        <div class="">
+
+                            <input type="checkbox" name="" id="">
+                            <label for="">야구</label>
+                            <input type="checkbox" name="" id="">
+                            <label for="">농구</label>
+                            <input type="checkbox" name="" id="">
+                            <label for="">축구</label>
+                            <input type="checkbox" name="" id="">
+                            <label for="">공부</label>
+                            <input type="checkbox" name="" id="">
+                            <label for="">음악감상</label>
+                            <label for="">기타 : </label>
+                            <input type="text" name="" id="">
+                        </div>
+                    </div>
+                    <div class="">
+                        <label for="">자기 소개</label>
+                        <div class="">
+
+                        <textarea>
+                        </textarea>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <button type="button">회원가입</button>
+            <button type="button">다시입력</button>
+            <button type="button">이전으로</button>
+        </form>
+    </fieldset>
+</div>
+</body>
+</html>

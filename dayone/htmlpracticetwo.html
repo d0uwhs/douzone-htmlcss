@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>납품자 정보</title>
+</head>
+<body>
+<div class="container">
+    <form action="" method="post">
+        <fieldset>
+            <legend>납품자 정보</legend>
+            <div class="order_buyer">
+                <ol>
+                    <li>
+                        <label for="order_buyer_name">납품자명 : </label>
+                        <input type="text" name="" id="order_buyer_name" placeholder="name">
+                    </li>
+                    <li>
+                        <label for="order_buyer_email">email : </label>
+                        <input type="text" name="" id="order_buyer_email" placeholder="answs@naver.com">
+                    </li>
+                    <li>
+                        <label for="order_buyer_email">홈페이지 : </label>
+                        <input type="text" name="" id="order_buyer_homepage" placeholder="http://">
+                    </li>
+                </ol>
+            </div>
+        </fieldset>
+        <div class="order_receipt">
+            <fieldset>
+                <legend>납품정보</legend>
+                <ul>
+                    <li>
+                        <label for="order_receipt_product_name">상품명 : </label>
+                        <input type="text" name="" id="order_receipt_product_name">
+                    </li>
+                    <li>
+                        <label for="order_receipt_product_amount">납품수량 : </label>
+                        <input type="text" name="" id="order_receipt_product_amount" placeholder="최소 100">
+                    </li>
+                    <li>
+                        <label for="order_receipt_product_grade">납품등급 : </label>
+                        <input type="range" name="" id="order_receipt_product_grade">
+                    </li>
+                    <li>
+                        <label for="order_receipt_product_detail">기타 사항 : </label>
+                        <textarea id="order_receipt_product_detail" ></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+
+        </div>
+      <button type="submit">send message</button>
+    </form>
+</div>
+</body>
+</html>

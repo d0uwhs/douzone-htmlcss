@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/pizza.css">
+    <title>피자 주문</title>
+</head>
+<body>
+<div class="container">
+    <h1>장바구니</h1>
+    <div class="form-controller">
+        <form action="" method="post">
+            <div class="subtitle">수령인 정보</div>
+            <div class="border"></div>
+            <div class="order-section order-customer">
+                <input type="text" class="order-input" placeholder="고객명">
+                <input type="text" class="order-input" placeholder="휴대폰번호">
+                <input type="text" class="order-input" placeholder="이메일">
+            </div>
+            <div class="subtitle">피자 사이즈</div>
+            <div class="border"></div>
+            <div class="order-section order_pizza">
+                <input type="radio" name="small" id="size_small">
+                <label for="size_small">Small</label>
+                <input type="radio" name="medium" id="size_medium">
+                <label for="size_medium">Medium</label>
+                <input type="radio" name="large" id="size_large">
+                <label for="size_large">Large</label>
+            </div>
+            <div class="subtitle">토핑 선택</div>
+            <div class="border"></div>
+            <div class="order-section">
+                <form action="" method="post" name="토핑 선택">
+                    <input type="checkbox" name="bacon" id="topping_bacon">
+                    <label for="size_small">베이컨</label>
+                    <input type="checkbox" name="onion" id="topping_onion">
+                    <label for="size_medium">양파</label>
+                    <input type="checkbox" name="mushroom" id="topping_mushroom">
+                    <label for="size_large">버섯</label>
+                </form>
+            </div>
+            <div class="order-section">
+                <div class="subtitle">배송 시간</div>
+                <div class="border"></div>
+                <input type="time" name="" class="order_time">
+            </div>
+            <div class="order-section">
+                <div class="subtitle">배송 시 요청사항</div>
+                <div class="border"></div>
+            </div>
+            <textarea class=""></textarea>
+
+        </form>
+    </div>
+    <button class="submit" type="submit">주문하기</button>
+</div>
+</body>
+</html>

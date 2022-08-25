@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>피자 주문</title>
+</head>
+<body>
+<div class="container">
+    <form action="" method="post">
+        <div class="member-info">
+            <div class="">
+                <label for="member_name">고객명 : </label>
+                <input type="text" id="member_name">
+            </div>
+            <div class="">
+                <label for="member_phone_number">전화번호 : </label>
+                <input type="text" id="member_phone_number">
+            </div>
+            <div class="">
+
+                <label for="member_email">Email : </label>
+                <input type="text" id="member_email">
+            </div>
+        </div>
+        <div class="order_pizza">
+            <fieldset>
+                <legend>피자 사이즈</legend>
+                <div class="select_pizza_size">
+                    <div class="">
+
+                        <input type="radio" name="small" id="size_small">
+                        <label for="size_small">Small</label>
+                    </div>
+                    <div class="">
+                        <input type="radio" name="medium" id="size_medium">
+                        <label for="size_medium">Medium</label>
+                    </div>
+                    <div class="">
+
+                        <input type="radio" name="large" id="size_large">
+                        <label for="size_large">Large</label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="select_pizza_topping">
+                <fieldset>
+                    <legend>토핑 선택</legend>
+                    <form action="" method="post" name="토핑 선택">
+                        <div class="">
+
+                            <input type="checkbox" name="bacon" id="topping_bacon">
+                            <label for="size_small">베이컨</label>
+                        </div>
+                        <div class="">
+                            <input type="checkbox" name="onion" id="topping_onion">
+                            <label for="size_medium">양파</label>
+
+                        </div>
+                        <div class="">
+
+                            <input type="checkbox" name="mushroom" id="topping_mushroom">
+                            <label for="size_large">버섯</label>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="">
+
+            <label for="order_time">희망 배송 시간 : </label>
+            <input type="time" name="" id="order_time">
+            </div>
+            <label for="order-details">배송 시 요청사항 : </label>
+            <textarea id="order-details"></textarea>
+        </div>
+        <button type="submit">주문하기</button>
+    </form>
+</div>
+</body>
+</html>
